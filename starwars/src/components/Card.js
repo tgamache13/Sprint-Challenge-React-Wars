@@ -22,7 +22,7 @@ const Pulse = styled.div`
 
 const Card = props => {
     return(
-        <Pulse className="card" key={props.id}>
+        <Pulse className="card" >
             <h2>Name: {props.name}</h2>
             <h3>Eye-Color: {props.eyeColor}</h3>
             <h3>Gender: {props.gender}</h3>

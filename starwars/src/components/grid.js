@@ -30,8 +30,8 @@ export default function Grid() {
     <div className="container">
       
       <IndivEntry className="entry">
-          {info.map(item => {
-              return <Card key={item} name={item.name} eyeColor={item.eye_color} hairColor={item.hair_color} gender={item.gender} />;
+          {info.map((item,index) => {
+              return <Card key={index} name={item.name} eyeColor={item.eye_color} hairColor={item.hair_color} gender={item.gender} />;
           })}
       </IndivEntry>
     </div>

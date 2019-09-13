@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const Pulse = styled.div`
     transition: transform 0.3s ease-in:
-    background: black;
+    
     width: 200px;
     max-height: 300px;
     display: flex;
@@ -12,6 +12,8 @@ const Pulse = styled.div`
     justify-content: space-between;
     margin-bottom: 25px;
     box-shadow: 0px 1px 6px -2px black;
+    background: silver;
+    color: white;
 
     &:hover {
         transform: translateY(-5px) scale(1.25);
